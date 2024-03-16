@@ -1,7 +1,14 @@
 # [Light Bootstrap Dashboard Angular](https://demos.creative-tim.com/light-bootstrap-dashboard-angular2/dashboard)
+
 [![version][version-badge]][CHANGELOG] ![license][license-badge]
 
 ![alt text](src/assets/img/opt_lbd_angular_thumbnail.jpg)
+
+## [instrunctions for working]
+
+remove "<v>" on node_modules/@types/ws/index.d.ts:321:34 - error TS2315: Type 'Server' is not generic.
+
+321 server?: HTTPServer<V> | HTTPSServer<V> | undefined;
 
 **[Light Bootstrap Dashboard Angular](https://demos.creative-tim.com/light-bootstrap-dashboard-angular2/dashboard)** is an admin dashboard template designed to be beautiful and simple. It is built on top of Bootstrap 3, using [Light Bootstrap Dashboard](https://www.creative-tim.com/product/light-bootstrap-dashboard) and it is fully responsive. It comes with a big collections of elements that will offer you multiple possibilities to create the app that best fits your needs. It can be used to create admin panels, project management systems, web applications backend, CMS or CRM.
 
@@ -13,30 +20,31 @@ Special thanks go to: Robert McIntosh for the notification system Chartist for t
 
 ## Links:
 
-+ [Live Preview](https://demos.creative-tim.com/light-bootstrap-dashboard-angular2/dashboard)
-+ [Light Bootstrap Dashboard PRO Angular](https://www.creative-tim.com/product/light-bootstrap-dashboard-pro-angular2/?ref=lbd-angular-github) ($49)
+- [Live Preview](https://demos.creative-tim.com/light-bootstrap-dashboard-angular2/dashboard)
+- [Light Bootstrap Dashboard PRO Angular](https://www.creative-tim.com/product/light-bootstrap-dashboard-pro-angular2/?ref=lbd-angular-github) ($49)
 
 ## Quick Start:
 
 Quick start options:
 
-+ [Download from Github](https://github.com/creativetimofficial/light-bootstrap-dashboard-angular2/archive/master.zip).
-+ [Download from Creative Tim](https://www.creative-tim.com/product/light-bootstrap-dashboard-angular2).
-+ Clone the repo: `git clone https://github.com/creativetimofficial/light-bootstrap-dashboard-angular2.git`.
+- [Download from Github](https://github.com/creativetimofficial/light-bootstrap-dashboard-angular2/archive/master.zip).
+- [Download from Creative Tim](https://www.creative-tim.com/product/light-bootstrap-dashboard-angular2).
+- Clone the repo: `git clone https://github.com/creativetimofficial/light-bootstrap-dashboard-angular2.git`.
 
 ## Terminal Commands
 
 1. Install NodeJs from [NodeJs Official Page](https://nodejs.org/en).
 2. Open Terminal
 3. Go to your file project
-4. Run in terminal: ```npm install -g @angular/cli```
-5. Then: ```npm install```
-6. And: ```ng serve```
+4. Run in terminal: `npm install -g @angular/cli`
+5. Then: `npm install`
+6. And: `ng serve`
 7. Navigate to `http://localhost:4200/`
 
 ### What's included
 
 Within the download you'll find the following directories and files:
+
 ```
 light-bootstrap-dashboard-angular
 ├── CHANGELOG.md
@@ -144,6 +152,7 @@ light-bootstrap-dashboard-angular
 └── typings.json
 
 ```
+
 ## Useful Links
 
 More products from Creative Tim: <https://www.creative-tim.com/bootstrap-themes>
@@ -167,6 +176,5 @@ Google+: <https://plus.google.com/+CreativetimPage>
 Instagram: <https://instagram.com/creativetimofficial>
 
 [CHANGELOG]: ./CHANGELOG.md
-
 [version-badge]: https://img.shields.io/badge/version-1.9.0-blue.svg
 [license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
