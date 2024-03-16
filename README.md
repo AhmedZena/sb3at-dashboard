@@ -6,7 +6,7 @@
 
 ## [instrunctions for working]
 
-remove "<v>" on node_modules/@types/ws/index.d.ts:321:34 - error TS2315: Type 'Server' is not generic.
+remove "<'v'>" on node_modules/@types/ws/index.d.ts:321:34 - error TS2315: Type 'Server' is not generic.
 
 321 server?: HTTPServer<V> | HTTPSServer<V> | undefined;
 
